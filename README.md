@@ -137,11 +137,14 @@ TerraformS3WebHosting/
 Clone this repository:
 
 git clone https://github.com/Kuldeep-Vighane/TerraformS3WebHosting.git
+
 cd TerraformS3WebHosting
+
+
 Initialize Terraform:
-
 terraform init
-Apply configuration:
 
+Apply configuration:
 terraform apply -auto-approve
+
 Access your website via the S3 website endpoint provided in AWS.
